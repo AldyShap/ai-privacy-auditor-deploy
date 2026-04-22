@@ -20,7 +20,7 @@ const Welcome = () => {
 
                 <div className="hero-preview">
                     {/* ФОТО: Ортадағы Score 78 скриншоты */}
-                    <img src={"src/assets/hero-dashboard.png"} alt="Privacy Score Preview" />
+                    <img src={"/hero-dashboard.png"} alt="Privacy Score Preview" />
                 </div>
             </header>
             <br/>
@@ -34,7 +34,7 @@ const Welcome = () => {
             <section className="promo-section">
                 <div className="promo-container">
                     {/* ФОТО: AI-Privacy Auditor суреті (ортадағы үлкен блок) */}
-                    <img src={"src/assets/auditor-main.png"} alt="AI Privacy Auditor" />
+                    <img src={"/auditor-main.png"} alt="AI Privacy Auditor" />
                 </div>
             </section>
 
@@ -47,10 +47,10 @@ const Welcome = () => {
             {/* 3. STEPS SECTION (1-2-3 Қадамдар) */}
             <section className="steps-row">
                 {/* ФОТО: Шаг 1 карточкасы (дайын сурет) */}
-                <img src={"src/assets/step1-card.png"} alt="Step 1" className="step-img" />
+                <img src={"/step1-card.png"} alt="Step 1" className="step-img" />
 
                 {/* ФОТО: Шаг 2 карточкасы (дайын сурет) */}
-                <img src={"src/assets/step23-card.png"} alt="Step 2-3" className="step-img" />
+                <img src={"/step23-card.png"} alt="Step 2-3" className="step-img" />
 
                 {/* ФОТО: Шаг 3 карточкасы (дайын сурет) */}
             </section>
@@ -59,7 +59,7 @@ const Welcome = () => {
             <section className="trust-section">
                 <div className="trust-container">
                     {/* ФОТО: "Почему это важно?" және "Нам можно доверять" екі блогы бірге немесе жеке */}
-                    <img src={"src/assets/trust-block.jpg"} alt="Why it matters" />
+                    <img src={"/trust-block.jpg"} alt="Why it matters" />
                 </div>
             </section>
 
@@ -67,7 +67,7 @@ const Welcome = () => {
             <footer className="welcome-footer">
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <img src={"src/assets/contendOs.png"} alt="ContendOSLogo" style={{width: 150, height: 50}}/>
+                        <img src={"/contendOs.png"} alt="ContendOSLogo" style={{width: 150, height: 50}}/>
                         <p>Твой личный щит в мире цифровых данных.</p>
                     </div>
                     <div className="footer-contacts">
