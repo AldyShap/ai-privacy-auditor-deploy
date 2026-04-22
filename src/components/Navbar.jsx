@@ -19,7 +19,7 @@ const Navbar = () => {
             {/* 2. ВЕРТИКАЛЬДІ SIDEBAR */}
             <nav className={`sidebar ${isOpen ? 'open' : ''}`}>
                 <div className="sidebar-logo">
-                    <img src={"src\\assets\\contendOs.png"} alt="Consent OS" />
+                    <img src={"/contendOs.png"} alt="Consent OS" />
                 </div>
 
                 <ul className="nav-links">
