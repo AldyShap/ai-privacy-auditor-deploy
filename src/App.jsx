@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar.jsx";
 import DataList from "./components/DataList.jsx";
 import Welcome from "./pages/Welcome.jsx";
 import Settings from "./pages/Settings.jsx";
+import WhyUs from "./pages/WhyUs.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
 
             {/* Симуляция беті */}
             <Route path="/simulate" element={<Simulation />} />
+            <Route path="/why-us" element={<WhyUs/>}/>
             <Route path="/settings" element={<Settings/>}/>
         </Routes>
     </div>
