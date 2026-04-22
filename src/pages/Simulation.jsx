@@ -95,7 +95,6 @@ const Simulation = () => {
                             <p>Installing <b>{selectedApp.name}</b> will decrease your privacy by
                                 <span className="drop-value"> {currentScore - predictedScore} points</span>.
                             </p>
-                            <button className="install-btn">Proceed with Caution</button>
                         </div>
                     )}
                     {showModal && selectedApp && (
