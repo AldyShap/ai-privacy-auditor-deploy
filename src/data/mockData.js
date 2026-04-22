@@ -112,7 +112,7 @@ export const mockServices = [
     {
         id: 12,
         name: "Microsoft Teams",
-        risk: "low",
+        risk: "LOW",
         color: "#10b981",
         data: ["phone number", "contacts"],
         status: "Active",
