@@ -26,6 +26,7 @@ const Navbar = () => {
                     <li><Link Link to="/">🙌 Welcome</Link></li>
                     <li><Link Link to="/dashboard" onClick={toggleNavbar}>🏠 Dashboard</Link></li>
                     <li><Link to="/simulate" onClick={toggleNavbar}>🧪 Simulation</Link></li>
+                    <li><Link to="/why-us" onClick={toggleNavbar}>❔ Why us?</Link></li>
                     <li><Link to="/settings" onClick={toggleNavbar}>⚙️ Settings</Link></li>
                 </ul>
             </nav>
