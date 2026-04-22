@@ -14,9 +14,9 @@ const Simulation = () => {
     const currentScore = calculateScore(localServices);
 
     const appsToSimulate = [
-        { id: 101, name: "New Social App", risk: "high", data: ["Contacts", "Location"], color: "#ef4444", img_src: "src/assets/youtube.png", lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`},
-        { id: 102, name: "Health Tracker", risk: "medium", data: ["Biometrics"], color: "#f59e0b", img_src: "src/assets/youtube.png", lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`},
-        { id: 103, name: "Weather Pro", risk: "low", data: ["Location"], color: "#10b981", img_src: "src/assets/youtube.png", lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`},
+        { id: 101, name: "New Social App", risk: "high", data: ["Contacts", "Location"], color: "#ef4444", img_src: "/youtube.png", lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`},
+        { id: 102, name: "Health Tracker", risk: "medium", data: ["Biometrics"], color: "#f59e0b", img_src: "/youtube.png", lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`},
+        { id: 103, name: "Weather Pro", risk: "low", data: ["Location"], color: "#10b981", img_src: "/youtube.png", lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`},
     ];
 
     // 2. Сервисті қосу функциясы
