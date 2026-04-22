@@ -7,7 +7,7 @@ export const mockServices = [
         data: ["Location", "Full Name", "Transactions"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/kaspi.jpg",
+        img_src: "/kaspi.jpg",
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const mockServices = [
         data: ["Full Name", "Grades", "Attendance"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/kundelik.jpg",
+        img_src: "/kundelik.jpg",
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const mockServices = [
         data: ["Location", "Full Name"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/fitnessTracker.png",
+        img_src: "/fitnessTracker.png",
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export const mockServices = [
         data: ["phone number", "Contacts"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/starapp.jpg",
+        img_src: "/starapp.jpg",
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const mockServices = [
         data: ["Location", "Full Name", "Transactions"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/contendoslogo.png",
+        img_src: "/contendoslogo.png",
     },
     {
         id: 6,
@@ -57,7 +57,7 @@ export const mockServices = [
         data: ["Phone Number", "Contacts"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/telegramlogo.png",
+        img_src: "/telegramlogo.png",
     },
     {
         id: 7,
@@ -67,7 +67,7 @@ export const mockServices = [
         data: ["phone number", "contacts"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/bookinglogo.jpg",
+        img_src: "/bookinglogo.jpg",
     },
     {
         id: 8,
@@ -77,7 +77,7 @@ export const mockServices = [
         data: ["Location", "Full Name", "Transactions"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/flashlightlogo.jpg",
+        img_src: "/flashlightlogo.jpg",
     },
     {
         id: 9,
@@ -87,7 +87,7 @@ export const mockServices = [
         data: ["Location", "Full Name", "phone number"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/instagramlogo.png",
+        img_src: "/instagramlogo.png",
     },
     {
         id: 10,
@@ -97,7 +97,7 @@ export const mockServices = [
         data: ["Location", "Full Name", "Transactions"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/socialnetlogo.jpg",
+        img_src: "/socialnetlogo.jpg",
     },
     {
         id: 11,
@@ -107,7 +107,7 @@ export const mockServices = [
         data: ["phone number", "email"],
         status: "Active",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
-        img_src: "src/assets/googlelogo.jpg",
+        img_src: "/googlelogo.jpg",
     },
     {
         id: 12,
@@ -116,7 +116,7 @@ export const mockServices = [
         color: "#10b981",
         data: ["phone number", "contacts"],
         status: "Active",
-        img_src: "src/assets/microsoftTeamlogo.jpg",
+        img_src: "/microsoftTeamlogo.jpg",
         lastAccess: `${new Date().getDate()}/${new Date().getMonth()}/${new Date().getFullYear()}`,
     }
 
